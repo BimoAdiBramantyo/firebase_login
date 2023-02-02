@@ -18,6 +18,8 @@ class _LoginPageState extends State<LoginPage> {
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
 
+  final FirebaseAuth _auth = FirebaseAuth.instance;
+
   //sign user in method
   void SignUserIn() async{
 
